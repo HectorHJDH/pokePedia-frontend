@@ -1,0 +1,1 @@
+# pokePedia-frontend

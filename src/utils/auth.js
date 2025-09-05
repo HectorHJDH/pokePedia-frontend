@@ -50,5 +50,9 @@ class Auth {
 }
 
 export const auth = new Auth({
-  baseUrl: "https://se-register-api.en.tripleten-services.com/v1",
+  baseUrl: "https://api.hectorvmpokepedia.chickenkiller.com",
+  // headers: {
+  //   Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+  //   "Content-Type": "application/json",
+  // },
 });

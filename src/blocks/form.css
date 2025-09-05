@@ -1,0 +1,95 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 190px auto;
+  font-family: "Inter";
+  padding: 50px 10px 56px;
+  border-radius: 8px;
+  justify-content: space-between;
+  background-image: url("../images/Pokemon-login.png");
+  object-fit: cover;
+  max-width: 600px;
+  min-height: 650px;
+}
+
+.form__logo {
+  width: 500px;
+  height: 180px;
+}
+
+.form__title {
+  font-size: 28px;
+  color: #0d549a;
+  margin: 0;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 84px;
+  max-width: 358px;
+  margin: 50px 0 50px;
+  gap: 24px;
+}
+
+.form__input {
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 5;
+  width: 100%;
+  height: 100%;
+  max-height: 27px;
+  border: none;
+  color: #000000;
+  padding: 10px 5px 11px;
+  border: 1px solid #0d549a;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.form__submit-button {
+  width: 60%;
+  height: 100%;
+  max-height: 58px;
+  max-width: 358px;
+  background-color: #1567b0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 84px;
+  margin: 20px 0 100px 0;
+}
+
+.form__link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form__link {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.form__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.login__signup-link {
+  margin-left: 5px;
+  display: inline;
+  font-weight: bold;
+  color: #1567b0;
+}

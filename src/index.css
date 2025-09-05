@@ -1,0 +1,29 @@
+@import url("../src/blocks/form.css");
+@import url("../src/blocks/header.css");
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "NataSans", sans-serif;
+  background-image: url("./images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}

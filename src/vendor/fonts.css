@@ -1,0 +1,11 @@
+@font-face {
+  src: url(../fonts/NataSans-VariableFont_wght.ttf) format("ttf");
+  font-family: "NataSans";
+  font-weight: 300;
+}
+
+@font-face {
+  src: url(../fonts/NataSans-Bold.ttf) format("ttf");
+  font-family: "NataSans-Bold";
+  font-weight: 700;
+}

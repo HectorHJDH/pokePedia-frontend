@@ -30,7 +30,7 @@ function App() {
       setCurrentUser(user);
       setLoggedin(true);
     } catch (err) {
-      console.error("Error al inicializar la aplicación:", err);
+      // console.error("Error al inicializar la aplicación:", err);
       setLoggedin(false);
     }
   }
@@ -69,7 +69,7 @@ function App() {
           setPokemonList(pokemonWithFavorites);
         })
         .catch((err) => {
-          console.error("Failed to fetch Pokémon details:", err);
+          // console.error("Failed to fetch Pokémon details:", err);
         })
         .finally(() => {
           setIsLoading(false);
@@ -150,7 +150,7 @@ function App() {
         children: <InfoTooltip registerStatus={true} />,
       });
     } catch (err) {
-      console.error("Error en login:", err);
+      // console.error("Error en login:", err);
       setPopup({
         title: "",
         children: <InfoTooltip registerStatus={false} />,
@@ -163,8 +163,6 @@ function App() {
   function handleClosePopup() {
     setPopup(null);
   }
-
-  console.log("Logged in? ", isLoggedIn);
 
   return (
     <div className="page__content">
